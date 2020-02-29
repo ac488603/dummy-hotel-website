@@ -11,8 +11,10 @@ body{
 
 a{
     color:#fff;
+    text-decoration: none;
 }
 
+/*utility*/
 .container{
     margin: auto;
     max-width: 1100px;
@@ -20,6 +22,23 @@ a{
     padding: 0 20px;
 }
 
+.orange-text {
+    color:coral;
+}
+
+.btn{
+    color: white;
+    display: inline-block;
+    padding: 13px 20px;
+    border:none;
+    font-size: 18px;
+    cursor: pointer;
+    background: #333;
+    margin:auto;
+
+}
+
+/* navbar */
 #navbar{
     background: #333;
     color: #fff;
@@ -31,7 +50,6 @@ a{
  }
 
 .logo a {
-    text-decoration: none;
     font-size: x-large;
 }
 
@@ -56,4 +74,47 @@ a{
 #navbar ul li a:hover, .current {
     color: coral;
     background: #444;
+}
+
+/*showcase*/
+.showcase-content{
+    background: url('/img/showcase.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    color:#fff;
+    text-align: center;
+}
+
+.showcase-content h1 {
+    margin: 140px  0 40px 0;
+    font-size: 60px;
+}
+
+.showcase-content p{
+    text-align: center;
+    padding-bottom: 20px;   
+}
+
+/* home info*/
+.home-info-content {
+    background: #333;
+    color:white;
+    text-align: center;
+    overflow: auto;
+    height: 400px;
+} 
+.home-info-content img{
+    width: 50%;
+    background-attachment: center;
+    background-repeat: no-repeat;
+    float:left;
+    min-height: 100%;
+}
+
+.home-info-text{
+    float: right;
+    width:50%;
+    padding: 50px 30px;
 }
