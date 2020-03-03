@@ -95,7 +95,7 @@ a{
 
 .showcase-content p{
     text-align: center;
-    padding-bottom: 20px;   
+    padding-bottom: 0  10px 20px 10px;   
 }
 
 /* home info*/
@@ -212,3 +212,38 @@ footer{
 .testimonial-text{
     padding: 20px;
 }
+
+/*contact form*/
+#contact-form{
+    padding: 20px;
+}
+#contact-form h1{
+    font-size: xx-large;
+    padding-bottom:20px;
+}
+
+#contact-form  form label{
+    display: block;
+    font-size: larger;
+    font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#contact-form form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+#contact-form p{
+    font-weight: bold;
+}
+
+#contact-form form textarea{
+    width: 100%;
+    height: 150px;
+}
+
+
